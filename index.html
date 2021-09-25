@@ -12,12 +12,28 @@
 </head>
 <body>
     <div class="wrap">
-        <header class="bg-black py-2">
+        <section class="menu-toggle bg-dark py-3 d-none">
+            <div class="container text-white d-flex justify-content-between px-1- mt-3">
+                <div class="w-60">
+                    <h2 class="fw-bold fz-m mb-3">About</h2>
+                    <p class="text-secondary lh-1-">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+                </div>
+                <div class="w-30">
+                    <h2 class="fw-bold fz-m mb-3">Contact</h2>
+                    <a class="a-white text-decoration-none text-nowrap lh-1-" href="#">Follow on Twitter</a>
+                    <br>
+                    <a class="a-white text-decoration-none text-nowrap lh-1-" href="#">Like on Facebook</a>
+                    <br>
+                    <a class="a-white text-decoration-none text-nowrap lh-1-" href="#">Email me</a>
+                </div>
+            </div>
+        </section>
+        <header class="bg-dark py-2">
             <div class="container text-white d-flex justify-content-between align-items-center px-1-">
                 <a href="#" class="text-decoration-none text-white fw-bold fz-m">
                     <i class="fas fa-camera"></i> Album
                 </a>
-                <button class="bg-black text-white opacity-5 fz-l cursor-pointer"><i class="fas fa-bars"></i></button>
+                <button class="bg-dark text-white opacity-5 fz-l cursor-pointer menu-button border-secondary bdrs px-1-"><i class="fas fa-bars"></i></button>
             </div>
         </header>
         <section class="bg-white text-black text-align-center py-5">
@@ -207,7 +223,7 @@
             </div>
         </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
     <script src="https://kit.fontawesome.com/12f7c380ae.js" crossorigin="anonymous"></script>
     <script src="js/style.js"></script>
 </body>
