@@ -7,7 +7,6 @@
 - 漢堡選單可開啟/隱藏目錄
 - RWD
 #### 使用技術：
-- [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [jQuery](https://jquery.com/)
 #### 第三方插件：
 - [font-awesome](https://fontawesome.com/)
